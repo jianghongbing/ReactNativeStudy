@@ -8,17 +8,33 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 
 type Props = {};
+
+class Item extends Component {
+  render(){
+    return (
+      <View style={styles.item}>
+        <Text style={styles.itemText}>
+          {this.props.number}
+        </Text>
+      </View>
+    )
+  }
+}
 
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.firstView}></View>
-        <View style={[styles.viewSize, {backgroundColor: 'orange'}]}></View>
-        <View style={[styles.viewSize, styles.thirdView]}></View>
+        <View style={styles.redView}>
+        {
+          [1, 2, 3].map(number=><Item key={number} number={number}/>)
+        }
+        </View>
+        <View style={styles.greenView}></View>
+        <View style={styles.blueView}></View>
       </View>
     );
   }
@@ -28,28 +44,44 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'flex-start',
-    alignItems: 'flex-start',
+    alignItems: 'stretch',
+    alignContent: 'stretch',
     backgroundColor: '#F5FCFF',
   },
 
-  viewSize: {
-    width:200,
-    height: 80,
-  },
-
-  firstView: {
-    marginTop: 100,
+  redView: {
+    flex: 1,
+    borderWidth: 3,
+    borderColor: 'green',
     backgroundColor: 'red',
-    width: 200,
-    height: 80,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
   },
 
-  thirdView: {
-    margin: 10,
-    borderWidth: 5,
-    borderStartColor: 'red',
-    borderEndColor: 'blue',
-    borderRadius: 5,
-  }
+  greenView: {
+    flex: 2,
+    borderWidth: 3,
+    borderColor: 'blue',
+    backgroundColor: 'green',
+  },
 
+  blueView: {
+    flex: 3,
+    borderWidth: 1,
+    borderColor: 'red',
+    backgroundColor: 'blue',
+  },
+
+  item: {
+    width: 50,
+    height: 50,
+    backgroundColor: 'orange',
+  },
+
+  itemText: {
+    color: 'white',
+    fontSize: 20,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  }
 });
