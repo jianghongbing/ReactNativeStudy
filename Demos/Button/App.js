@@ -24,7 +24,6 @@ export default class App extends Component<Props> {
         </Text>
         <View style={styles.buttonView}>
           <Button
-            style={styles.button}
             title='Press Me'
             color='red'
             onPress={this._firstButtonOnPress}
@@ -72,9 +71,4 @@ const styles = StyleSheet.create({
     marginEnd: 20,
     borderRadius: 10,
   },
-  button: {
-    backgroundColor: 'orange',
-    fontSize: 30,
-    fontWeight: 'bold',
-  }
 });
