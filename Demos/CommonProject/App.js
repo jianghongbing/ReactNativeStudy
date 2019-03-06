@@ -8,120 +8,116 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, TextInput, TouchableOpacity} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity, Alert, AlertIOS, ActionSheetIOS} from 'react-native';
 
 type Props = {};
-class LoginBox extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      accout: '',
-      password: '',
-    };
-  }
+
+class MyButton extends Component {
   render(){
     return (
-      <View>
-        <View style={styles.loginBox}>
-          <View style={styles.inputItem}>
-            <Text style={styles.itemText}>账号:</Text>
-            <TextInput
-              style={styles.input}
-              placeholder='请输入用户名'
-              value={this.state.accout}
-              clearButtonMode='while-editing'
-              onChangeText={(text)=>{
-                this.setState({accout: text});
-              }}
-            />
-          </View>
-          <View style={[styles.inputItem, {borderBottomWidth: 0}]}>
-            <Text style={styles.itemText}>密码:</Text>
-            <TextInput
-              style={styles.input}
-              placeholder='请输入密码'
-              value={this.state.password}
-              clearButtonMode='while-editing'
-              onChangeText={(text)=>{
-                this.setState({password: text});
-              }}
-              secureTextEntry={true}
-            />
-          </View>
-        </View>
-        <TouchableOpacity
-          style={styles.submitButton}
-          activeOpacity={0.75}
-          onPress={()=>{
-            console.log(`userName:${this.state.accout}, password:${this.state.password}`);
-          }}
-        >
-          <Text style={{color: 'white', textAlign: 'center', 'fontSize': 18}}>登录</Text>
-        </TouchableOpacity>
-      </View>
-    )
+      <TouchableOpacity
+        style={{backgroundColor: '#ff9900', padding: 10, borderRadius: 8, margin: 10}}
+        onPress={()=>{
+          this.props.clickHandler();
+        }}
+      >
+        <Text style={{color: 'white', fontSize: 18, textAlign: 'center'}}>
+          {this.props.title}
+        </Text>
+      </TouchableOpacity>
+    );
   }
 }
 
-
-
 export default class App extends Component<Props> {
-  constructor(props){
-    super(props);
-  }
   render() {
     return (
       <View style={styles.container}>
-        <TextInput
-          style={styles.textInput}
-          clearButtonMode='unless-editing'
-          defaultValue='xiaoming'
-          multiline={true}
-          numberOfLines={3}
-          placeholder='请输入用户名'
-          placeholderTextColor={'red'}
-          selectionColor={'green'}
-          selectTextOnFocus={true}
-          onContentSizeChange={(event)=>{
-            console.log(event.nativeEvent);
-          }}
-          onScroll={(event)=>{
-            console.log(event.nativeEvent);
+        <MyButton
+          title='退出登录'
+          clickHandler={()=>{
+            Alert.alert('退出登录', '', [
+              {text: '确认', onPress:()=>this.alert('确认退出登录')},
+              {text: '取消', onPress:()=>this.alert('取消退出登录'), style:'cancel'}
+            ])
           }}
         >
-        </TextInput>
-        <TextInput
-          style={styles.textInput}
-          enablesReturnKeyAutomatically={true}
-          maxLength={10}
-          onFocus={()=>{
-            console.log('获取焦点');
-          }}
-          onBlur={()=>{
-            console.log('失去了焦点');
-          }}
-          onChange={(event)=>{
-            console.log('on change');
-            console.log(event.nativeEvent);
-          }}
-          onChangeText={(text)=>{
-            console.log('on change text');
-            console.log(text);
-          }}
-          onKeyPress={(event)=>{
-            console.log(event.nativeEvent);
-          }}
-          onEndEditing={()=>{
-            console.log('end editing');
-          }}
-          onSubmitEditing={()=>{
-            console.log('submit editing');
+        </MyButton>
+        <MyButton
+          title='选项'
+          clickHandler={()=>{
+            Alert.alert('这是对话框的标题', '对话框信息', [
+              {text: '选项1', onPress: ()=>this.alert('点击了选项1')},
+              {text: '选项2', onPress:()=>this.alert('点击了选项2')},
+              {text: '选项3', onPress:()=>this.alert('点击了选项3')},
+            ],{cancelable: true});
           }}
         >
-        </TextInput>
-        <LoginBox />
+        </MyButton>
+        <MyButton
+          title='AlertIOS-alert'
+          clickHandler={()=>{
+            AlertIOS.alert('购买设备', '请选择一个设别',[
+              {text: 'iPhone', onPress:()=>{
+                this.alert('购买iPhone');
+              }},
+              {text: 'Mac', onPress:()=>{
+                this.alert('购买Mac');
+              }},
+              {text: '只是看看', onPress:()=>{
+                this.alert('逛逛');
+              }, style:'destructive'},
+            ]);
+          }}
+        >
+        </MyButton>
+        <MyButton
+          title='AlertIOS-prompt'
+          clickHandler={()=>{
+            AlertIOS.prompt('重新登录','请输入密码', [
+              {
+                text: '确定',
+                onPress:(text)=>{
+                  this.alert(`密码:${text}`);
+                }
+              },
+              {
+                text: '取消',
+                style: 'destructive',
+              },
+            ], 'secure-text', '123456', 'number-pad')
+          }}>
+        </MyButton>
+        <MyButton
+          title='ActionSheetIOS-show'
+          clickHandler={()=>{
+            ActionSheetIOS.showActionSheetWithOptions({
+              options:['iPhone', 'iPad', 'Mac', 'Watch', 'Cancel'],
+              destructiveButtonIndex: 3,
+              cancelButtonIndex: 4,
+              title: 'Apple',
+              message: '请选择产品',
+              tintColor: 'blue',
+            }, (buttonIndex)=>{
+              this.alert(`点击了选项${buttonIndex}`);
+            })
+          }}
+        >
+        </MyButton>
+        <MyButton
+          title='ActionSheetIOS-share'
+          clickHandler={()=>{
+            // ActionSheetIOS.showShareActionSheetWithOptions()
+          }}
+        >
+        </MyButton>
       </View>
     );
+  }
+  alert(title){
+    Alert.alert(title, null, ()=>{
+      console.log('点击了ok');
+    });
   }
 }
 
@@ -130,42 +126,5 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  textInput: {
-    margin: 10,
-    padding: 10,
-    backgroundColor: 'orange',
-    textAlign: 'center',
-    color: 'white',
-    fontSize: 18,
-  },
-  loginBox: {
-    margin: 10,
-    borderWidth: 1,
-    borderColor: 'gray',
-    borderRadius: 5,
-    // padding: 10,
-  },
-  inputItem: {
-    flexDirection: 'row',
-    borderBottomWidth: 1,
-    borderColor: 'gray',
-    padding: 10,
-    overflow: 'hidden',
-  },
-  input: {
-    flex: 1,
-    marginLeft: 8,
-    marginRight: 0,
-    fontSize: 16,
-  },
-  submitButton: {
-    padding: 10,
-    margin: 10,
-    backgroundColor: '#38ADFF',
-    borderRadius: 8,
-  },
-  itemText: {
-    fontSize: 16,
   },
 });
