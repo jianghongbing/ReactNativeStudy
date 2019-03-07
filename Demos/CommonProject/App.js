@@ -8,131 +8,68 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, TouchableOpacity, Alert, AlertIOS, ActionSheetIOS} from 'react-native';
+import {
+  StyleSheet,
+  View,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
 
-type Props = {};
+type Props = {}
 
-class MyButton extends Component {
-  render(){
-    return (
-      <TouchableOpacity
-        style={{backgroundColor: '#ff9900', padding: 10, borderRadius: 8, margin: 10}}
-        onPress={()=>{
-          this.props.clickHandler();
-        }}
-      >
-        <Text style={{color: 'white', fontSize: 18, textAlign: 'center'}}>
-          {this.props.title}
-        </Text>
-      </TouchableOpacity>
-    );
-  }
-}
-
+const imageSource = './src/imgs/image_01@2x.png';
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <MyButton
-          title='退出登录'
-          clickHandler={()=>{
-            Alert.alert('退出登录', '', [
-              {text: '确认', onPress:()=>this.alert('确认退出登录')},
-              {text: '取消', onPress:()=>this.alert('取消退出登录'), style:'cancel'}
-            ])
-          }}
-        >
-        </MyButton>
-        <MyButton
-          title='选项'
-          clickHandler={()=>{
-            Alert.alert('这是对话框的标题', '对话框信息', [
-              {text: '选项1', onPress: ()=>this.alert('点击了选项1')},
-              {text: '选项2', onPress:()=>this.alert('点击了选项2')},
-              {text: '选项3', onPress:()=>this.alert('点击了选项3')},
-            ],{cancelable: true});
-          }}
-        >
-        </MyButton>
-        <MyButton
-          title='AlertIOS-alert'
-          clickHandler={()=>{
-            AlertIOS.alert('购买设备', '请选择一个设别',[
-              {text: 'iPhone', onPress:()=>{
-                this.alert('购买iPhone');
-              }},
-              {text: 'Mac', onPress:()=>{
-                this.alert('购买Mac');
-              }},
-              {text: '只是看看', onPress:()=>{
-                this.alert('逛逛');
-              }, style:'destructive'},
-            ]);
-          }}
-        >
-        </MyButton>
-        <MyButton
-          title='AlertIOS-prompt'
-          clickHandler={()=>{
-            AlertIOS.prompt('重新登录','请输入密码', [
-              {
-                text: '确定',
-                onPress:(text)=>{
-                  this.alert(`密码:${text}`);
-                }
-              },
-              {
-                text: '取消',
-                style: 'destructive',
-              },
-            ], 'secure-text', '123456', 'number-pad')
-          }}>
-        </MyButton>
-        <MyButton
-          title='ActionSheetIOS-show'
-          clickHandler={()=>{
-            ActionSheetIOS.showActionSheetWithOptions({
-              options:['iPhone', 'iPad', 'Mac', 'Watch', 'Cancel'],
-              destructiveButtonIndex: 3,
-              cancelButtonIndex: 4,
-              title: 'Apple',
-              message: '请选择产品',
-              tintColor: 'blue',
-            }, (buttonIndex)=>{
-              this.alert(`点击了选项${buttonIndex}`);
-            })
-          }}
-        >
-        </MyButton>
-        <MyButton
-          title='ActionSheetIOS-share'
-          clickHandler={()=>{
-            ActionSheetIOS.showShareActionSheetWithOptions(
-              {url:'https://www.apple.com', message:'iPhone', subject:'iPhone xs'},
-              (error)=>{
-                console.log(error);
-                this.alert('分享失败');
-              },
-              (success, text)=>{
-                this.alert(`分享成功: ${success},${text}`);
-              })
-          }}
-        >
-        </MyButton>
+        <View style={styles.imageList}>
+          <Image
+            style={[styles.localImage, {resizeMode: 'contain'}]}
+            blurRadius={1}
+            source={require('./src/imgs/image_01.png')}
+          />
+          <Image
+            style={[styles.localImage, {resizeMode: 'cover'}]}
+            source={require('./src/imgs/image_02.png')}
+          />
+          <Image
+            style={[styles.localImage, {resizeMode: 'stretch'}]}
+            source={require('./src/imgs/image_03.png')}
+          />
+          <Image
+            style={[styles.localImage, {resizeMode: 'center', tintColor: 'green'}]}
+            source={require('./src/imgs/image_04.png')}
+          />
+          <Image
+            style={[styles.localImage, {resizeMode: 'repeat'}]}
+            source={require('./src/imgs/image_05.png')}
+          />
+        </View>
       </View>
-    );
-  }
-  alert(title){
-    Alert.alert(title, null, ()=>{
-      console.log('点击了ok');
-    });
+    )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     backgroundColor: '#F5FCFF',
+  },
+  imageList: {
+    flexDirection: 'row',
+    marginTop: 50,
+    justifyContent: 'space-evenly',
+    flexWrap: 'wrap',
+  },
+  localImage: {
+    width: 100,
+    height: 100,
+  },
+  netImage: {
+
+  },
+  dataImage: {
+
   },
 });
