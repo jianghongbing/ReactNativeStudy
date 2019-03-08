@@ -11,7 +11,8 @@ import React, {Component} from 'react';
 import {
   StyleSheet,
   View,
-  Switch,
+  Slider,
+  Text,
 } from 'react-native';
 
 type Props = {}
@@ -20,49 +21,33 @@ export default class App extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-      firstSwitchValue: false,
-      secondSwitchValue: false,
-      thirdSwitchValue: false,
+      value: 0,
+      slidingCompleteValue: 0,
     };
   }
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.view}>
-          <Switch
-            value={this.state.firstSwitchValue}
-            trackColor={{false: 'red', true: 'black'}}
-            thumbColor='blue'
-            onValueChange={()=>{
-              const value = !this.state.firstSwitchValue;
-              this.setState({firstSwitchValue: value});
-            }}
+        <Slider
+          minimumValue={0}
+          maximumValue={100}
+          value={this.state.value}
+          minimumTrackTintColor='red'
+          maximumTrackTintColor='green'
+          thumbImage={require('./src/imgs/image_01.png')}
+          onValueChange={(value)=>{
+            this.setState({value: value});
+          }}
+          onSlidingComplete={(value)=>{
+            this.setState({slidingCompleteValue: value});
+          }}
           />
-          <Switch
-            value={this.state.secondSwitchValue}
-            trackColor={{false: 'red', true: 'black'}}
-            thumbColor='blue'
-            ios_backgroundColor='orange'
-            onValueChange={()=>{
-              const value = !this.state.secondSwitchValue;
-              this.setState({secondSwitchValue: value});
-            }}
+        <Text style={styles.text}>{this.state.value}</Text>
+        <Text style={styles.text}>{this.state.slidingCompleteValue}</Text>
+        <Slider
+          thumbImage={require('./src/imgs/image_02.png')}
+          trackImage={require('./src/imgs/image_03.png')}
           />
-          <Switch
-           value={this.state.thirdSwitchValue}
-            ios_backgroundColor='orange'
-            onValueChange={()=>{
-              const value = !this.state.thirdSwitchValue;
-              this.setState({thirdSwitchValue: value});
-            }}
-          />
-          <Switch
-            trackColor={{false: 'red', true: 'black'}}
-            thumbColor='green'
-            value={true}
-            disabled={true}
-          />
-        </View>
       </View>
     )
   }
@@ -78,4 +63,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
   },
+  text: {
+    color: 'red',
+    fontSize: 20,
+    textAlign: 'center',
+  }
 });
