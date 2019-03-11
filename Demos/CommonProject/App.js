@@ -11,64 +11,121 @@ import React, {Component} from 'react';
 import {
   StyleSheet,
   View,
-  StatusBar,
-  TouchableHighlight,
+  TouchableOpacity,
   Text,
+  Modal,
+  Alert,
 } from 'react-native';
 
 type Props = {}
 
+// class Page extends Component {
+//   constructor(props){
+//     super(props)
+//     this.state={visible: false}
+//   }
+//   render(){
+//     return (
+//       <View>
+//         <Modal>
+//           // <Page number={this.props.nubmer}/>
+//         </Modal>
+//         <Text style={styles.text}>
+//           {`Page:${this.props.number}`}
+//         </Text>
+//         <TouchableOpacity
+//             style={styles.button}
+//             activeOpacity={0.9}
+//             onPress={()=>{
+//               // const visible = !this.state.visible
+//               // this.setState({visible: visible})
+//             }}
+//             >
+//             <Text
+//               style={styles.buttonText}>
+//               Modal A New Page
+//             </Text>
+//           </TouchableOpacity>
+//         {
+//           this.props.number > 0 &&
+//           <TouchableOpacity
+//               style={styles.button}
+//               activeOpacity={0.9}
+//               onPress={()=>{
+//                 // const visible = !this.state.visible
+//                 // this.setState({visible: visible})
+//               }}
+//                 >
+//               <Text
+//                 style={styles.buttonText}>
+//                 Dismiss
+//               </Text>
+//             </TouchableOpacity>
+//         }
+//       </View>
+//     )
+//   }
+// }
+
+
 export default class App extends Component<Props> {
   constructor(props){
     super(props)
-    this.state={
-      hidden: false,
-      barStyle: 'dark-content',
-    }
+    this.state={visible: false}
   }
 
   render() {
     return (
+      // <View style={styles.container}>
+      //   <Page number={0}/>
+      // </View>
       <View style={styles.container}>
-        <StatusBar
-          animated={true}
-          hidden={this.state.hidden}
-          barStyle={this.state.barStyle}
-          networkActivityIndicatorVisible={true}
-          showHideTransition='slide'
-          />
-        <TouchableHighlight
-          style={styles.button}
-          onPress={()=>{
-            this.setState({hidden: !this.state.hidden})
+        <Modal
+          visible={this.state.visible}
+          animationType='slide'
+          transparent={true}
+          onShow={()=>{
+            Alert.alert('onShow')
           }}
-          >
-          <Text style={styles.text}>Hide or Show StatusBar</Text>
-        </TouchableHighlight>
-        <TouchableHighlight
-          style={styles.button}
-          onPress={()=>{
-            let barStyle = this.state.barStyle
-            if (barStyle === 'dark-content') {
-              barStyle = 'light-content'
-            }else {
-              barStyle = 'dark-content'
-            }
-            this.setState({barStyle: barStyle})
+          onDismiss={()=>{
+            Alert.alert('onDismiss')
           }}
-          >
-          <Text style={styles.text}>Change BarStyle</Text>
-        </TouchableHighlight>
-        <TouchableHighlight
-          style={styles.button}
-          onPress={()=>{
-            StatusBar.setBarStyle('light-content', true)
+          onOrientationChange={()=>{
+            Alert.alert('onOrientationChange')
           }}
+          supportedOrientations={['portrait', 'landscape']}
           >
-          <Text style={styles.text}>
-            setBarStyle
+          <View style={[styles.container,{backgroundColor: 'orange'}]}>
+            <Text style={styles.text}>Page Two</Text>
+          <TouchableOpacity
+            style={styles.button}
+            activeOpacity={0.9}
+            onPress={()=>{
+              const visible = !this.state.visible
+              this.setState({visible: visible})
+            }}
+              >
+            <Text
+              style={styles.buttonText}>
+              Dismiss
+            </Text>
+          </TouchableOpacity>
+          </View>
+        </Modal>
+        <Text style={styles.text}>Page One</Text>
+        <TouchableOpacity
+          style={styles.button}
+          activeOpacity={0.9}
+          onPress={()=>{
+            const visible = !this.state.visible
+            this.setState({visible: visible})
+          }}
+            >
+          <Text
+            style={styles.buttonText}>
+            Modal Page Two
           </Text>
-        </TouchableHighlight>
+        </TouchableOpacity>
       </View>
     )
   }
@@ -79,7 +136,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#F5FCFF',
-    backgroundColor: 'orange',
   },
   button: {
     margin: 10,
@@ -88,8 +144,13 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   text: {
-    color: 'white',
+    color: 'red',
     fontSize: 30,
+    textAlign: 'center',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 18,
     textAlign: 'center',
   },
 });
