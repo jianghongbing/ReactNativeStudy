@@ -19,3 +19,5 @@
   * pageSheet
   * formSheet
   * overFullScreen
+* onRequestClose: onRequestClose回调会在用户按下Android设备上的后退按键或是Apple TV上的菜单键时触发.请务必注意本属性在Android平台上为必填,且会在modal处于开启状态时阻止BackHandler事件.
+* hardwareAccelerated:是否强制启用硬件加速来绘制弹出层.仅安卓可用
