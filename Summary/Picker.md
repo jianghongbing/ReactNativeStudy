@@ -27,3 +27,17 @@
 
 * label: 选项标签,用于显示在Picker中该选项的文字
 * value: 该选项的值
+
+## DatePickerIOS: 时间选择器,仅iOS可用
+
+* date: 被选中的时间
+* mode: 时间选择器的样式
+  * date: 年,月,日
+  * time: 时,分,上下午
+  * dateTime: 日,时,分,上下午
+* minimumDate: 可选的最小日期
+* maximumDate: 可选的最大日期
+* minuteInterval: 分钟的间隔
+* locale: 区域,本地化picker选择器
+* timeZoneOffsetInMinutes: 时区差,单位是分钟
+* onDateChange: 当选择的日期发生改变时的回调
