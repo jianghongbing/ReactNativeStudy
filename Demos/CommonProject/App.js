@@ -28,22 +28,22 @@ const data = [
     data: [
       {
         name: '张三',
-        avatarUrl: './src/imgs/image_01.png',
+        avatarUrl: require('./src/imgs/image_01.png'),
         userId: 'friend00',
       },
       {
         name: '李四',
-        avatarUrl: './src/imgs/image_02.png',
+        avatarUrl: require('./src/imgs/image_02.png'),
         userId: 'friend01',
       },
       {
         name: '王五',
-        avatarUrl: './src/imgs/image_03.png',
+        avatarUrl: require('./src/imgs/image_03.png'),
         userId: 'friend02',
       },
       {
         name: '赵六',
-        avatarUrl: './src/imgs/image_03.png',
+        avatarUrl: require('./src/imgs/image_04.png'),
         userId: 'friend03'
       },
     ]
@@ -54,22 +54,22 @@ const data = [
     data: [
       {
         name: '小明',
-        avatarUrl: './src/imgs/image_05.png',
+        avatarUrl: require('./src/imgs/image_05.png'),
         userId: 'classmate00',
       },
       {
         name: '小红',
-        avatarUrl: './src/imgs/image_04.png',
+        avatarUrl: require('./src/imgs/image_04.png'),
         userId: 'classmate01',
       },
       {
         name: '小飞',
-        avatarUrl: './src/imgs/image_01.png',
+        avatarUrl: require('./src/imgs/image_01.png'),
         userId: 'classmate02',
       },
       {
         name: '小龙',
-        avatarUrl: './src/imgs/image_03.png',
+        avatarUrl: require('./src/imgs/image_03.png'),
         userId: 'classmate03'
       },
     ]
@@ -80,22 +80,22 @@ const data = [
     data: [
       {
         name: '语文老师',
-        avatarUrl: './src/imgs/image_04.png',
+        avatarUrl: require('./src/imgs/image_04.png'),
         userId: 'teacher00',
       },
       {
         name: '数学老师',
-        avatarUrl: './src/imgs/image_02.png',
+        avatarUrl: require('./src/imgs/image_02.png'),
         userId: 'teacher01',
       },
       {
         name: '美术老师',
-        avatarUrl: './src/imgs/image_03.png',
+        avatarUrl: require('./src/imgs/image_03.png'),
         userId: 'teacher02',
       },
       {
         name: '音乐老师',
-        avatarUrl: './src/imgs/image_01.png',
+        avatarUrl: require('./src/imgs/image_01.png'),
         userId: 'teacher03'
       },
     ]
@@ -110,7 +110,7 @@ export default class App extends Component<Props> {
     return (
       <View style={{flexDirection:'row', padding: 10, alignItems: 'center'}}>
         <Image
-          source={require('./src/imgs/image_03.png')} />
+          source={avatarUrl} />
         <Text style={{color: 'red', fontSize: 16, marginStart: 5}}>{name}</Text>
       </View>
     )
