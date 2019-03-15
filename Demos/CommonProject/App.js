@@ -13,10 +13,9 @@ import {
   View,
   Text,
   SafeAreaView,
-  Dimensions,
   Alert,
-  PixelRatio,
   TouchableOpacity,
+  Platform,
 } from 'react-native';
 
 type Props = {}
@@ -28,16 +27,17 @@ export default class App extends Component<Props> {
         <TouchableOpacity
           style={{backgroundColor:'#2233ee', margin:10, padding: 10, borderRadius:5}}
           onPress={()=>{
-            const scale=PixelRatio.get()
-            const fontScale=PixelRatio.getFontScale()
-            const pixelSize = PixelRatio.getPixelSizeForLayoutSize(100.5)
-            const nearestPixel = PixelRatio.roundToNearestPixel(100.67)
-            Alert.alert('PixelRatio Info', `scale:${scale}, fontScale:${fontScale},pixelSize:${pixelSize},nearestPixel:${nearestPixel}`)
+            const os = Platform.OS
+            const version = Platform.Version
+            const debugMode = Platform.isTesting
+            const isTV = Platform.isTV
+            const info = `os:${os}, version:${version},debugMode: ${debugMode},isTV:${isTV}${os==='ios' ? (`,isIPAD:${Platform.isPad}`) : ''}`
+            Alert.alert('Platform Info', info)
           }}
           >
           <Text
             style={{color: 'white', fontSize: 20, textAlign:'center'}}
-            >获取PixelRation信息</Text>
+            >{Platform.OS==='ios' ? '获取iOS设备信息' : '获取andriod设备信息'}</Text>
         </TouchableOpacity>
       </SafeAreaView>
     )
