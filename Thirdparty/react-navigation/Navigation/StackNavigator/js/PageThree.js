@@ -1,11 +1,4 @@
 import React, {Component} from 'react'
-import {
-  StyleSheet,
-  View,
-  Text,
-  Alert,
-} from 'react-native'
-
 import {NavigatorButton} from './PageOne'
 import { StackActions, NavigationActions } from 'react-navigation'
 
@@ -73,10 +66,6 @@ export default class PageThree extends Component {
 
   componentWillMount() {
     const {navigation} = this.props
-//     willFocus -页面将获取焦点
-// didFocus - 页面已获取到焦点（如果有过渡动画，等过渡动画执行完成后响应）
-// willBlur - 页面将失去焦点
-// didFocus - 页面已获取到焦点（如果有过渡动画，等过渡动画执行完成后响应）
     this.willFocusListener = navigation.addListener('willFocus', this._willFocus)
     this.didFocusListener = navigation.addListener('didFocus', this._didFocus)
     this.willBlurListener = navigation.addListener('willBlur', this._willBlur)
@@ -115,5 +104,4 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'center',
   },
-
 })

@@ -90,7 +90,7 @@ StackNavigatorConfig对象用于界面跳转之间的设置
 * initialRouteName: 初始路由,也就是栈的最下面的界面的路由
 * initialRouteParams: 初始路由的参数
 * initialRouteKey: 初始路由的key
-* paths: 用来设置支持schema跳转时使用
+* paths: 用来设置支持scheme跳转时使用
 * mode: 转场动画效果
   * card: 使用标准的iOS和Android屏幕转换,这是默认设置.
   * modal: 页面从屏幕底部滑入,只在iOS上生效,在Android上无效.
@@ -103,5 +103,16 @@ StackNavigatorConfig对象用于界面跳转之间的设置
   * false: 不可见
   * fade-in-place: 标题组件交叉淡入淡出而不移动,默认值
   * uikit: iOS的默认行为的近似值
+* headerLayoutPreset: 指定header如何布局
+  * left: 标题显示在导航栏的左边,会影响到返回按钮,导致返回按钮位置发生偏移.
+  * center: 标题显示在导航栏的中间
 * headerTransitionPreset: 指定在启用headerMode:float时,导航栏如何过渡
-* cardStyle:
+* cardStyle:使用此props覆盖或扩展堆栈中单个Card的默认样式
+* cardShadowEnabled: 使用此prop在页面切换时显示堆栈卡片浮层,默认值false
+* transitionConfig: 返回与默认的页面切换效果合并的对象的函数
+* transitionProps:
+* prevTransitionProps:
+* isModal: 是否为modal模式
+* onTransitionStart: 当过渡动画即将启动时的回调
+* onTransitionEnd: 当过度动画结束的时候的回调
+* transparentCard: 保持堆栈中所有卡片可见
