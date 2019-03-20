@@ -1,7 +1,19 @@
 import {createStackNavigator, createAppContainer} from 'react-navigation'
 import PageOne, {PageOneHeader} from './PageOne'
 import PageTwo, {PageTwoHeaderLeft, PageTwoHeaderRight} from './PageTwo'
+import PageThree from './PageThree'
+import PageFour from './PageFour'
 import React from 'react'
+
+export const AStackNavigator = createStackNavigator({
+  RootPage:{
+    screen: PageFour,
+    navigationOptions: {
+      title: 'PageFour',
+    },
+  }
+})
+
 const StackNavigator = createStackNavigator({
   RootPage: {
     screen: PageOne,
@@ -29,14 +41,29 @@ const StackNavigator = createStackNavigator({
       // gestureDirection: 'inverted'
     }),
   },
+  PageThree: {
+    screen: PageThree,
+    navigationOptions: {
+      title: 'PageThree',
+    },
+  },
+  PageFour: {
+    screen: AStackNavigator,
+  },
 },{
   initialRouteName: 'RootPage',
   // mode: 'modal',
-  headerMode: 'screen',
+  // headerMode: 'screen',
   // headerBackTitleVisible: false,
   // headerLayoutPreset: 'left',
-  // cardShadowEnabled: false,
+  cardShadowEnabled: false,
   cardShadowEnabled: true,
 })
+
+
+
+
+
+
 
 export const AppContainer = createAppContainer(StackNavigator)

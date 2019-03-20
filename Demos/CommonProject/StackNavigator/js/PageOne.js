@@ -7,7 +7,7 @@ import {
   Text,
 } from 'react-native';
 
-const NavigatorButton = ({onPress, title}) => {
+export const NavigatorButton = ({onPress, title}) => {
   return (
     <TouchableOpacity
       style={styles.button}
@@ -37,7 +37,11 @@ class PageOne extends Component {
           />
         <NavigatorButton
           title='Push'
-          onPress={_=>thi}
+          onPress={_=>this.props.navigation.push('PageThree', {count: 1})}
+          />
+        <NavigatorButton
+          title='Push'
+          onPress={_=>this.props.navigation.push('PageFour')}
           />
       </View>
     )
