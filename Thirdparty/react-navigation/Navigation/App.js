@@ -8,23 +8,12 @@
  */
 
 import React, {Component} from 'react';
-import {
-  StyleSheet,
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
-  View,
-} from 'react-native';
-
-
-
+import { AppContainer } from './StackNavigator/js/StackNavigator'
 type Props = {}
-
 export default class App extends Component<Props> {
   render() {
     return (
-      <View>
-      </View>
+      <AppContainer />
     )
   }
 }
