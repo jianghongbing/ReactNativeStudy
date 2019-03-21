@@ -1,16 +1,21 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import {
   StyleSheet,
   View,
   Text,
 } from 'react-native'
 
-export default class DestinationPage extends Component {
+import {NavigatorButton} from './PageOne'
+
+export default class PageThree extends Component {
   render() {
     const {navigation} = this.props
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>{`number:${navigation.getParam('number', 10000)}`}</Text>
+        <NavigatorButton
+          title='Dismiss返回到上一个堆栈'
+          onPress={_=>navigation.dismiss()}
+          />
       </View>
     )
   }
@@ -18,12 +23,13 @@ export default class DestinationPage extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'orange',
+    backgroundColor: 'rgba(255, 255, 255, 1)',
     flex: 1,
     justifyContent: 'center',
   },
+
   text: {
-    color: 'white',
+    color: 'red',
     fontSize: 30,
     textAlign: 'center',
   },

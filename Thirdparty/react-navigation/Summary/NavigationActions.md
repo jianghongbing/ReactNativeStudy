@@ -57,3 +57,61 @@ const action = StackActions.push({
   actions:[],
 })
 ```
+
+### pop: 返回到堆栈中上一个路由或通过设置参数n,可以指定返回的层次
+
+* n: 指定返回的层次
+
+### popToTop: 返回到根路由
+
+### replace: 用另一个路由替换指定的路由.
+
+```JavaScript
+const action = StackActions.replace({
+  key: 'aKey',
+  newKey: 'aNewKey',
+  routeName:'MyPage',
+  params: {}, //参数
+  action: actionObj,
+  immediate: true,
+})
+```
+
+* key: 被替换的路由的key,如果未指定,最近的路由将会被替换
+* newKey: 用于替换路由的key,如果未提供,则自动生成.
+* routeName: 替换的路由名
+* params: 要传入替换路由的参数.
+* action: 可选的子动作。
+* immediate:立即执行
+
+### reset: 重置整个导航状态,并将其替换为多个操作的结果.
+
+```JavaScript
+const action = StackActions.reset({
+  index: 1,
+  actions:[
+    NavigationActions.navigate({
+      routeName: 'StackActions'
+    }),
+    NavigationActions.navigate({
+      routeName: 'DestinationPage',
+    })
+  ],
+  key: 'StackNavigatorKey',
+})
+
+//创建一个reset action, 用actions里面的路由替换掉当前栈的路由,也就有用两个界面(StackActions, DestinationPage)替换掉之前栈中的所有界面,并且显示路由在栈中所有路由的位置为index的界面,在该例子中是DestinationPage.
+
+this.props.navigation.dispatch(action)
+```
+* index: 用于指定当前活动路由,也就是活动路由在路由素组中的位置
+* actions: 将取代导航状态的导航行为数组
+* key: 如果设置,具有给定key的导航器将重置.如果为null,则根导航器将重置
+
+## DrawerActions: 抽屉操作
+
+### openDrawer: 打开抽屉
+
+### closeDrawer: 关闭抽屉
+
+### toggleDrawer: 如果抽屉是打开的,就关闭;如果抽屉是关闭的就打开

@@ -1,6 +1,6 @@
-# StackNavigator: 栈导航
+# StackNavigator: 栈导航器
 
-类似于iOS中的UINavigationController的角色
+类似于iOS中的UINavigationController的角色,以栈的方式来管理路由的状态
 
 ## 栈导航的使用
 
@@ -54,8 +54,8 @@ const StackNavigator = createStackNavigator({
 ```
 
 * screen: 必选,指定一个React组件作为屏幕的主要显示内容,当这个组件被createStackNavigator加载时,会给组件的props分分配一个navigation属性.表示一个加入到导航中的界面
-* path: 用来设置支持schema跳转时使用,具体使用会在下文的有关Schema章节中讲到
-* navigationOptions: 导航选项,由于当前界面的导航栏
+* path: 用来设置支持schema跳转时使用
+* navigationOptions: 导航选项,由于当前界面的导航栏,可在组件内部重写该属性,达到自定义导航栏的效果
 
 #### navigationOptions中的key的说明
 
@@ -90,6 +90,7 @@ StackNavigatorConfig对象用于界面跳转之间的设置
 * initialRouteName: 初始路由,也就是栈的最下面的界面的路由
 * initialRouteParams: 初始路由的参数
 * initialRouteKey: 初始路由的key
+* defaultNavigationOptions: 用于屏幕的默认导航选项,全局设置导航栏的某些状态
 * paths: 用来设置支持scheme跳转时使用
 * mode: 转场动画效果
   * card: 使用标准的iOS和Android屏幕转换,这是默认设置.
