@@ -6,8 +6,8 @@ import {
   Image,
 } from 'react-native'
 
-const contactsIcon = require('../src/imgs/home.png')
-const contactsSelectedIcon = require('../src/imgs/home_selected.png')
+const contactsIcon = require('../src/imgs/contacts.png')
+const contactsSelectedIcon = require('../src/imgs/contacts_selected.png')
 
 export default class PageTwo extends Component {
   static navigationOptions = ({navigation})=>{
@@ -16,7 +16,6 @@ export default class PageTwo extends Component {
         const icon = focused ? contactsSelectedIcon : contactsIcon
         return <Image source={icon} />
       },
-      tabBarLabel: null,
     }
   }
 

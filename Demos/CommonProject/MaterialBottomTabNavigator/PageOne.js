@@ -19,7 +19,7 @@ export default class PageOne extends Component {
         const icon = focused ? homeSelectedIcon : homeIcon
         return <Image source={icon} />
       },
-      tabBarLabel:({focused, tintColor}) =><Text>{focused ? 'Home' : '主页'}</Text>,
+      // tabBarLabel:({focused, tintColor}) =><Text>{focused ? 'Home' : '主页'}</Text>,
       tabBarOnPress: ({navigation, defaultHandler}) =>{
         Alert.alert('点击了home item')
         defaultHandler()

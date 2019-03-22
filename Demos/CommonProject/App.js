@@ -8,7 +8,7 @@
  */
 
 import React, {Component} from 'react';
-import AppContainer from './BottomTabNavigator/TabNavigator'
+import AppContainer from './MaterialBottomTabNavigator/TabNavigator'
 
 type Props = {}
 export default class App extends Component<Props> {
