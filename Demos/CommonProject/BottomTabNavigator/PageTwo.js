@@ -3,9 +3,23 @@ import {
   StyleSheet,
   View,
   Text,
+  Image,
 } from 'react-native'
 
+const contactsIcon = require('../src/imgs/home.png')
+const contactsSelectedIcon = require('../src/imgs/home_selected.png')
+
 export default class PageTwo extends Component {
+  static navigationOptions = ({navigation})=>{
+    return {
+      tabBarIcon:({focused, horizontal, tintColor})=>{
+        const icon = focused ? contactsSelectedIcon : contactsIcon
+        return <Image source={icon} />
+      },
+      tabBarLabel: null,
+    }
+  }
+
   render() {
     return (
       <View style={styles.container}>
