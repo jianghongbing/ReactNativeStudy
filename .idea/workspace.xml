@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/MaterialBottomTabNavigator/PageOne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/MaterialBottomTabNavigator/PageThree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/MaterialBottomTabNavigator/PageTwo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/MaterialBottomTabNavigator/TabNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageThree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/SwitchNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/DrawerNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/SwitchNavigator.md" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/SwitchNavigator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js" afterDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,30 +33,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/PageOne.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/DrawerNavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js">
+        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageOne.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="207">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="e#143#182#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageThree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageTwo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="e#143#182#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/Summary/DrawerNavigator.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="901">
+                <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -66,13 +99,19 @@
       <list>
         <option value="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/MeterialBottomTabNavigator.md" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/TabNavigator.js" />
-        <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageOne.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageTwo.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/SwitchNavigator.js" />
         <option value="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/SwitchNavigator.md" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageThree.js" />
         <option value="$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageOne.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/Page.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageThree.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageTwo.js" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/DrawerNavigator.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/DrawerNavigator.md" />
       </list>
     </option>
   </component>
@@ -95,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,10 +146,42 @@
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DrawerNavigator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="react-navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="react-navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,7 +190,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -142,6 +213,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <react-native value="/usr/local/lib/node_modules/react-native-cli" />
+      <platform value="IOS" />
+      <envs />
+      <only-packager />
+      <browser value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -158,11 +250,12 @@
       <workItem from="1553480084293" duration="103000" />
       <workItem from="1553481054108" duration="580000" />
       <workItem from="1553481982833" duration="4014000" />
+      <workItem from="1553491291867" duration="6547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5691000" />
+    <option name="totallyTimeSpent" value="12238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,21 +268,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="997" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" weight="0.24960506" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.24960506" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32845894" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32845894" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295838" />
-      <window_info anchor="bottom" id="RNConsole" order="10" show_stripe_button="false" weight="0.32845894" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4997367" visible="true" weight="0.32845894" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.32845894" />
+      <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32845894" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -224,6 +319,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -251,9 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/PageOne.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -261,10 +367,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/PageThree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/PageOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/PageOne.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#143#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="220">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
             <element signature="e#143#182#0" expanded="true" />
           </folding>
@@ -274,81 +421,82 @@
     <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/Summary/SwitchNavigator.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="550">
-            <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-            <folding>
-              <element signature="e#0#54#1" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="528">
+            <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="77" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/Summary/StackNavigator.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-900" />
+          <first_editor relative-caret-position="-785" />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageThree.js">
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageTwo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="345">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageTwo.js">
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageThree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="682">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/PageOne.js">
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/PageOne.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/SwitchNavigator/SwitchNavigator.js">
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/node_modules/react-navigation/typescript/react-navigation.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-633">
+          <caret line="514" column="14" selection-start-line="514" selection-start-column="14" selection-end-line="514" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/PageOne.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#143#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator/App.js">
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/DrawerNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#143#182#0" expanded="true" />
-          </folding>
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/Summary/DrawerNavigator.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="901">
+            <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

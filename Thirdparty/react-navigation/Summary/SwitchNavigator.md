@@ -1,4 +1,4 @@
-# SwitchNavigator: 开关导航器
+# DrawerNavigator: 开关导航器
 
 SwitchNavigator一次只显示一个页面.默认情况下,它不处理返回操作,并在你切换时将路由重置为默认状态.
 
@@ -8,7 +8,7 @@ SwitchNavigator一次只显示一个页面.默认情况下,它不处理返回操
 
 ```JavaScript
 import {createSwitchNavigator} from 'react-navigation'
-const SwitchNavigator = createSwitchNavigator({
+const DrawerNavigator = createSwitchNavigator({
   PageOne: PageOne,
   PageTwo: PageTwo,
 }, {

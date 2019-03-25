@@ -13,9 +13,21 @@ export default class PageThree extends Component {
         <Text style={styles.text}>Page Three</Text>
         <TouchableOpacity
             style={styles.button}
-            onPress={_=>this.props.navigation.navigate('PageOne')}
+            onPress={_=>this.props.navigation.openDrawer()}
         >
-          <Text style={[styles.text, {color: 'white', fontSize:20}]}>To Page One</Text>
+          <Text style={[styles.text, {fontSize: 20, color: 'white'}]}>Open Drawer</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+            style={styles.button}
+            onPress={_=>this.props.navigation.closeDrawer()}
+        >
+          <Text style={[styles.text, {fontSize: 20, color: 'white'}]}>Close Drawer</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+            style={styles.button}
+            onPress={_=>this.props.navigation.toggleDrawer()}
+        >
+          <Text style={[styles.text, {fontSize: 20, color: 'white'}]}>Toggle Drawer</Text>
         </TouchableOpacity>
       </View>
     )
