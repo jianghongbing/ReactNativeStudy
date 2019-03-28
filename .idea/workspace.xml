@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Info.plist" afterDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+            <state relative-caret-position="1430">
+              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
                 <element signature="e#143#182#0" expanded="true" />
               </folding>
@@ -37,22 +39,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Summary/Clipboard.md">
+        <entry file="file://$PROJECT_DIR$/Summary/NetInfo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="110">
-                <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <first_editor relative-caret-position="402">
+                <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -80,8 +73,9 @@
         <option value="$PROJECT_DIR$/Demos/CommonProject/DrawerNavigator/DrawerNavigator.js" />
         <option value="$PROJECT_DIR$/Thirdparty/react-navigation/Summary/DrawerNavigator.md" />
         <option value="$PROJECT_DIR$/Summary/Animated.md" />
-        <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
         <option value="$PROJECT_DIR$/Summary/Clipboard.md" />
+        <option value="$PROJECT_DIR$/Summary/NetInfo.md" />
+        <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
       </list>
     </option>
   </component>
@@ -121,6 +115,12 @@
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="Clipboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
               <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -152,11 +152,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Demos/Clipboard" />
       <recent name="$PROJECT_DIR$/Demos/Animated" />
       <recent name="$PROJECT_DIR$/Thirdparty/react-navigation/DrawerNavigator" />
       <recent name="$PROJECT_DIR$/Thirdparty/react-navigation" />
       <recent name="$PROJECT_DIR$/Thirdparty/react-navigation/SwitchNavigator" />
-      <recent name="$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,12 +214,12 @@
       <workItem from="1553653389901" duration="245000" />
       <workItem from="1553653670630" duration="1304000" />
       <workItem from="1553670779946" duration="203000" />
-      <workItem from="1553671032527" duration="3755000" />
+      <workItem from="1553671032527" duration="8456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33307000" />
+    <option name="totallyTimeSpent" value="38008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,21 +552,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="e#143#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Demos/Clipboard/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Summary/Clipboard.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="110">
             <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="e#143#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary/NetInfo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="402">
+            <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

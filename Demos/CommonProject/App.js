@@ -13,9 +13,8 @@ import {
   Text,
   TouchableOpacity,
   SafeAreaView,
-  TextInput,
   Alert,
-  Clipboard,
+  NetInfo,
 } from 'react-native'
 
 type Props = {}
@@ -24,51 +23,49 @@ export default class App extends Component<Props> {
 
   constructor(props) {
     super(props);
-    this.state = {text:''}
+    this._connectionChange = this._connectionChange.bind(this);
+    this.state = {}
   }
+
+  componentWillMount(){
+    NetInfo.addEventListener('connectionChange', this._connectionChange);
+  }
+
+  componentWillUnmount(){
+    NetInfo.removeEventListener('connectionChange', this._connectionChange)
+  }
+
 
   render() {
     return (
         <SafeAreaView style={styles.container}>
-          <TextInput
-              style={styles.textInput}
-              value={this.state.text}
-              placeholder='请输入剪贴板设置的内容'
-              placeholderTextColor='green'
-              onChangeText={text=>this.setState({text: text})}
-          />
+          <Text style={[styles.text, {color: '#45e', fontSize: 25, opacity: 0.8}]}>Change Network Connection</Text>
+          <Text style={[styles.text, {color: 'black'}]}>{`Connected:${this.state.isConnected}`}</Text>
+          <Text style={[styles.text, {color: 'black'}]}>{`NetworkType: ${this.state.type}`}</Text>
+          <Text style={[styles.text, {color: 'black'}]}>{`EffectiveConnectionType:${this.state.effectiveType}`}</Text>
           <TouchableOpacity
               style={styles.button}
-              onPress={this._getStringFromClipboard.bind(this)}
+              onPress={this._showNetworkInfo}
           >
-            <Text style={styles.text}>Get Clipboard String</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-              style={styles.button}
-              onPress={this._setStringToClipboard.bind(this)}
-          >
-            <Text style={styles.text}>Set Clipboard String</Text>
+            <Text style={styles.text}>Get network info</Text>
           </TouchableOpacity>
         </SafeAreaView>
     )
   }
 
-  _setStringToClipboard() {
-    const text = this.state.text.trim();
-    if (text.length === 0) {
-      Alert.alert('请输入合法的字符串');
-      return
-    }
-    Clipboard.setString(this.state.text)
+  _showNetworkInfo(){
+    NetInfo.getConnectionInfo().then(({type, effectiveType})=>{
+      Alert.alert(`network type:${type}, effectiveType:${effectiveType}`)
+    }).catch(error => Alert.alert(`Get Network info error: ${error.message}`));
+
+    NetInfo.isConnected.fetch()
+        .then(isConnected=>this.setState({isConnected}))
+        .catch(({message})=>{Alert.alert(`Error:${message}`)});
+  }
+  _connectionChange({type, effectiveType}){
+    this.setState({type, effectiveType})
   }
 
-  _getStringFromClipboard() {
-    Clipboard.getString().then(string=>
-        Alert.alert(`获取的剪贴板内容:${string}`)
-    ).catch(error =>
-        Alert.alert(`获取剪贴板内容失败:${error.message}`)
-    )
-  }
 }
 
 const styles = StyleSheet.create({
@@ -76,12 +73,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     flex: 1,
     justifyContent: 'center',
-  },
-  textInput: {
-    borderWidth: 1.0,
-    marginHorizontal: 10,
-    borderColor: 'green',
-    padding: 5,
   },
   button: {
     backgroundColor: 'orange',
