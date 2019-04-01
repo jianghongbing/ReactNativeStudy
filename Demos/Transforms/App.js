@@ -23,8 +23,7 @@ const Item = ({text, style})=>{
         <Text style={styles.text}>{text}</Text>
       </View>
   )
-}
-
+};
 
 export default class App extends Component<Props> {
 

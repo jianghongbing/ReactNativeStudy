@@ -61,6 +61,4 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFill,
     backgroundColor: '#000',
   },
-
-
 });
