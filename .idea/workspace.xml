@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/Transforms/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/Transforms/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Base.lproj/LaunchScreen.xib" afterDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="921">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
                 <element signature="e#143#182#0" expanded="true" />
               </folding>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demos/StyleSheet/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -116,28 +116,6 @@
             <path>
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="StyleSheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Summary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,12 +205,12 @@
       <workItem from="1553653670630" duration="1304000" />
       <workItem from="1553670779946" duration="203000" />
       <workItem from="1553671032527" duration="17008000" />
-      <workItem from="1554086238990" duration="2451000" />
+      <workItem from="1554086238990" duration="4783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49011000" />
+    <option name="totallyTimeSpent" value="51343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +628,7 @@
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="921">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
             <element signature="e#143#182#0" expanded="true" />
           </folding>
@@ -659,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demos/StyleSheet/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
