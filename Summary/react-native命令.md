@@ -9,3 +9,4 @@
   * `react-native init --version 0.58.5 projectName`,创建指定版本的React Native工程
 * run-ios: `react-native run-ios` 运行iOS模拟器
 * run-andriod: 'react-native run-andriod' 运行安卓模拟器
+* simulator: 在指定的模拟器上运行项目 `react-native run-ios --simulator 'iPhone X'`.
