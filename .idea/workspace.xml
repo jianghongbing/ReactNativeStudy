@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/CustomComponents/CityList.js" beforeDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="-142">
+              <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <element signature="e#143#182#0" expanded="true" />
               </folding>
@@ -36,24 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/CustomComponents/CityList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demos/Refs/App.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Summary/Refs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1906">
-                <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+              <first_editor relative-caret-position="132">
+                <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,9 +85,10 @@
         <option value="$PROJECT_DIR$/Demos/StyleSheet/App.js" />
         <option value="$PROJECT_DIR$/Summary/PanResponder.md" />
         <option value="$PROJECT_DIR$/Summary/react-native命令.md" />
+        <option value="$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/CustomComponents/CityList.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
-        <option value="$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md" />
+        <option value="$PROJECT_DIR$/Summary/Refs.md" />
       </list>
     </option>
   </component>
@@ -139,13 +134,7 @@
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomComponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Summary" type="462c0819:PsiDirectoryNode" />
+              <item name="Refs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +151,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demos/PanResponder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demos/Refs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -171,16 +160,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Demos/Refs" />
+      <recent name="$PROJECT_DIR$/Thirdparty/prop-types" />
       <recent name="$PROJECT_DIR$/Demos/PanResponder" />
       <recent name="$PROJECT_DIR$/Demos/StyleSheet" />
       <recent name="$PROJECT_DIR$/Demos/Transforms" />
-      <recent name="$PROJECT_DIR$/Demos/Clipboard" />
-      <recent name="$PROJECT_DIR$/Demos/Animated" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,12 +236,13 @@
       <workItem from="1555398269797" duration="3513000" />
       <workItem from="1555406642554" duration="2704000" />
       <workItem from="1555482505290" duration="688000" />
-      <workItem from="1555490338570" duration="3613000" />
+      <workItem from="1555490338570" duration="5636000" />
+      <workItem from="1555570223693" duration="4593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78460000" />
+    <option name="totallyTimeSpent" value="85076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,15 +255,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="997" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" weight="0.24960506" />
       <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
@@ -376,43 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/node_modules/react-native/Libraries/Animated/src/Animated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="196" column="24" lean-forward="true" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary/Animated.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="388">
-            <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/ImageBackground/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1245" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary/ImageBackground.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demos/Animated/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -756,33 +708,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/CustomComponents/CityList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="154">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/prop-types/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="157">
+            <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/prop-types/CustomComponents/CityList.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary/Refs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="132">
+            <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="-142">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding>
             <element signature="e#143#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1906">
-            <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Demos/Refs/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
