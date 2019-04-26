@@ -1,27 +1,47 @@
 import React from 'react'
 import {
-    View,
-    Text,
-    StyleSheet,
-    TouchableOpacity,
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
 } from 'react-native'
 
 const Counter = ({count, increment, decrement}) =>{
   return (
       <View style={styles.container}>
         <Text style={styles.counter}>{count}</Text>
-          <View style={styles.buttonGroup}>
-           <TouchableOpacity
+        <View style={styles.buttonGroup}>
+          <TouchableOpacity
               style={styles.button}
               onPress={increment}
-           >
-             <Text style={styles.buttonTitle}>increment</Text>
+          >
+            <Text style={styles.buttonTitle}>increment</Text>
           </TouchableOpacity>
           <TouchableOpacity
               style={styles.button}
               onPress={decrement}
           >
             <Text style={styles.buttonTitle}>decrement</Text>
+          </TouchableOpacity>
+        </View>
+        <View style={styles.buttonGroup}>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={_=>{
+                if (count % 2 !== 0) {
+                  increment()
+                }
+              }}
+          >
+            <Text style={styles.buttonTitle}>increment if odd </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={_=>{
+                setTimeout(increment, 1000)
+              }}
+          >
+            <Text style={styles.buttonTitle}>decrement async</Text>
           </TouchableOpacity>
         </View>
       </View>

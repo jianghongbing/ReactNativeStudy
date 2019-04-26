@@ -7,7 +7,6 @@
  */
 
 import Counter from './src/Counter'
-import { connect } from 'react-redux'
 import { increment, decrement} from './src/actions'
 
 const mapStateToProps = (state)=>({

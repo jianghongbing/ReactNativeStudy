@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store.js" afterDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,37 +32,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="361">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
-                <element signature="e#143#181#0" expanded="true" />
+                <element signature="e#103#138#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/store.js">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/Counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-931">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/reducers.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/index.js">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux/src/bindActionCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="-545" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <element signature="e#60#102#0" expanded="true" />
+                <element signature="e#103#138#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Summary/Redux.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="104">
+                <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/Counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="66" column="16" lean-forward="true" selection-end-line="83" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/reducers.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -105,6 +172,15 @@
         <option value="$PROJECT_DIR$/Demos/CommonProject/CounterDemo/Counter.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/index.js" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Summary/Action.md" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/actions.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Summary/Redux.md" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/actions.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/App.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/Counter.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js" />
+        <option value="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/Counter.js" />
       </list>
     </option>
   </component>
@@ -133,6 +209,16 @@
             <path>
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -166,7 +252,25 @@
               <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="CounterDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
               <item name="ReduxCommonProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="ReduxCommonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +283,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Thirdparty/redux/Summary" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,11 +297,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Thirdparty/redux/Summary" />
       <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01" />
       <recent name="$PROJECT_DIR$/Demos/Refs" />
       <recent name="$PROJECT_DIR$/Thirdparty/prop-types" />
       <recent name="$PROJECT_DIR$/Demos/PanResponder" />
-      <recent name="$PROJECT_DIR$/Demos/StyleSheet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,12 +380,12 @@
       <workItem from="1556158046805" duration="13801000" />
       <workItem from="1556184533876" duration="313000" />
       <workItem from="1556184923333" duration="106000" />
-      <workItem from="1556185048320" duration="1089000" />
+      <workItem from="1556185048320" duration="10073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108329000" />
+    <option name="totallyTimeSpent" value="117313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,10 +397,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="997" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" weight="0.24960506" />
       <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -307,7 +411,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32845894" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986835" weight="0.32845894" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986835" visible="true" weight="0.32845894" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013165" side_tool="true" weight="0.32845894" />
       <window_info anchor="bottom" id="RNConsole" order="10" sideWeight="0.4997367" weight="0.32845894" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -405,137 +509,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Summary/View.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="122">
-            <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="91" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary/Transforms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="462">
-            <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/Transforms/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1354">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demos/PanResponder/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary/PanResponder.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1012">
-            <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/StackNavigator/js/PageTwo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/StackNavigator/js/PageThree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/StackNavigator/js/PageOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/MaterialBottomTabNavigator/PageOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/NavigationActions/RootPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/Summary/NavigationActions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-549" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/NavigationActions/StackActionPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/NavigationActions/NavigationActionsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/NavigationActions/DrawerActionsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/NavigationActions/DestinationPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/DrawerNavigator/PageOne.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thirdparty/react-navigation/StackNavigator/js/PageFour.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -716,19 +689,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/CounterDemo/Counter.js" />
-    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#143#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/store.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -739,8 +699,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js">
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#143#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary/Style.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2582" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Summary/Action.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="23" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux-thunk/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux-thunk/dist/redux-thunk.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux-thunk/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/reducers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="444" column="16" selection-start-line="444" selection-start-column="16" selection-end-line="444" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/redux/src/bindActionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Summary/Redux.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="104">
+            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="66" column="16" lean-forward="true" selection-end-line="83" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#103#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#103#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/reducers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01/src/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

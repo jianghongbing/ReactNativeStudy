@@ -24,6 +24,26 @@ const Counter = ({count, increment, decrement}) =>{
             <Text style={styles.buttonTitle}>decrement</Text>
           </TouchableOpacity>
         </View>
+        <View style={styles.buttonGroup}>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={_=>{
+                if (count % 2 !== 0) {
+                  increment()
+                }
+              }}
+          >
+            <Text style={styles.buttonTitle}>increment if odd </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={_=>{
+                setTimeout(increment, 1000)
+              }}
+          >
+            <Text style={styles.buttonTitle}>decrement async</Text>
+          </TouchableOpacity>
+        </View>
       </View>
   )
 }
