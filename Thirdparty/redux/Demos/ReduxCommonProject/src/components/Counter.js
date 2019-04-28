@@ -6,7 +6,10 @@ import {
     TouchableOpacity,
 } from 'react-native'
 
-const Counter = ({count, increment, decrement, incrementIfOdd, incrementAsync}) =>{
+import { CityList } from './CityList'
+
+
+const Counter = ({count, increment, decrement, incrementIfOdd, incrementAsync, cityList, addCity, deleteCity, sortCities}) =>{
   return (
       <View style={styles.container}>
         <Text style={styles.counter}>{count}</Text>
@@ -36,6 +39,21 @@ const Counter = ({count, increment, decrement, incrementIfOdd, incrementAsync}) 
               onPress={_=>incrementAsync(2000)}
           >
             <Text style={styles.buttonTitle}>decrement async</Text>
+          </TouchableOpacity>
+        </View>
+        <CityList cityList={cityList} onPress={deleteCity}/>
+        <View style={styles.buttonGroup}>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={()=>addCity('武汉')}
+          >
+            <Text style={styles.buttonTitle}>Add City</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+              style={styles.button}
+              onPress={sortCities}
+          >
+            <Text style={styles.buttonTitle}>Sort Cities</Text>
           </TouchableOpacity>
         </View>
       </View>

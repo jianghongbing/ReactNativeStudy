@@ -21,5 +21,3 @@ export const incrementAsync = (delay)=>{
     setTimeout(_=>{dispatch(increment())}, delay)
   }
 }
-
-
