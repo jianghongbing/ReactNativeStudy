@@ -41,7 +41,7 @@ const Counter = ({count, increment, decrement}) =>{
                 setTimeout(increment, 1000)
               }}
           >
-            <Text style={styles.buttonTitle}>decrement async</Text>
+            <Text style={styles.buttonTitle}>increment async</Text>
           </TouchableOpacity>
         </View>
       </View>

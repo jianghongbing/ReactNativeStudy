@@ -35,7 +35,7 @@ const Counter = ({count, increment, decrement, incrementIfOdd, incrementAsync}) 
               style={styles.button}
               onPress={_=>incrementAsync(2000)}
           >
-            <Text style={styles.buttonTitle}>decrement async</Text>
+            <Text style={styles.buttonTitle}>increment async</Text>
           </TouchableOpacity>
         </View>
       </View>
