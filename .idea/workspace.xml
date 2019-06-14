@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7e819c0-7efe-4499-acf0-6cb127aff279" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Demos/CommonProject/ios/CommonProject/Info.plist" afterDir="false" />
     </list>
     <ignored path="ReactNativeStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,25 +22,13 @@
     <favorites_list name="ReactNativeStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#143#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Summary/Geolocation.md">
+        <entry file="file://$PROJECT_DIR$/Summary/Style.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="161">
-                <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Summary/PanResponder.md" />
         <option value="$PROJECT_DIR$/Thirdparty/prop-types/prop-types.md" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/CustomComponents/CityList.js" />
         <option value="$PROJECT_DIR$/Summary/Refs.md" />
@@ -114,6 +98,7 @@
         <option value="$PROJECT_DIR$/Issues/Issues.md" />
         <option value="$PROJECT_DIR$/Demos/CommonProject/App.js" />
         <option value="$PROJECT_DIR$/Summary/Geolocation.md" />
+        <option value="$PROJECT_DIR$/Demos/Geolocation/App.js" />
       </list>
     </option>
   </component>
@@ -126,7 +111,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="996" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="添加" />
@@ -146,13 +131,7 @@
             <path>
               <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactNativeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactNativeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="CommonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,17 +157,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/MultiReducersDemo" />
-      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store" />
-      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Demos/Geolocation" />
       <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/AsyncDemo" />
       <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo02" />
       <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/CounterDemo01" />
       <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/MultiReducersDemo" />
-      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/MultiReducersDemo/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/MultiReducersDemo" />
+      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/store" />
+      <recent name="$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,12 +259,13 @@
       <workItem from="1558676527457" duration="27000" />
       <workItem from="1558677464316" duration="603000" />
       <workItem from="1559099500091" duration="1308000" />
-      <workItem from="1559109079863" duration="5223000" />
+      <workItem from="1559109079863" duration="7104000" />
+      <workItem from="1559551770960" duration="492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194335000" />
+    <option name="totallyTimeSpent" value="196708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,7 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="996" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24960506" />
@@ -311,7 +291,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32845894" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986835" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986835" visible="true" weight="0.32919955" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013165" side_tool="true" weight="0.32845894" />
       <window_info anchor="bottom" id="RNConsole" order="10" sideWeight="0.4997367" weight="0.32845894" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -409,43 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Summary/SectionList.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary/FlatList.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-519">
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/node_modules/react-native/Libraries/Lists/FlatList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/reducers/reducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thirdparty/redux/Demos/ReduxCommonProject/src/components/MovieCell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -826,13 +769,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/Platform/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary/Platform.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demos/Geolocation/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="99" column="3" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demos/CommonProject/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="1265">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#143#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary/Style.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
